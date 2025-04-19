@@ -36,6 +36,8 @@ Players can perform three types of actions:
   - Live sampling during training for quality monitoring
   - Train/test split for evaluation
 
+Format accuracy seems to be achieved after 300 iterations / 5 min on a H100 GPU. 
+
 ### Inference (`test_inference.py`)
 - Loads fine-tuned models
 - Processes game states into model-compatible format
